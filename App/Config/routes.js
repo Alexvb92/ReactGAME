@@ -32,7 +32,7 @@ module.exports = (
                 <Route path="/Board" component={Board} />
 
             {/*if the user selects any other path .. it takes them home */}
-                <IndexRoute component={Main} />
+                <IndexRoute component={Board} />
         </Route>
     </Router>
 );

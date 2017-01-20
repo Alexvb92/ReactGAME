@@ -6,6 +6,8 @@ var ReactDOM = require("react-dom");
 // include main component
 var Main = require("./Components/Main");
 
+var routes = require('./config/routes');
 
-ReactDOM.render(<Main />, document.getElementById("app"));
+
+ReactDOM.render(routes, document.getElementById("app"));
 

@@ -4,6 +4,7 @@ var React = require("react");
 var Board = require("./Board.js")
 //create the main component - createClass is a function within React so you need React before createClass
 var Main = React.createClass({
+
     //every component has to have a render function
     render: function() {
         return (
@@ -13,6 +14,7 @@ var Main = React.createClass({
                     <p className="lead text-center"> press any key to play! </p>
                 </div>
                 <div className="game-container">
+                    {this.props.children}
                 </div>
             </div>
         );

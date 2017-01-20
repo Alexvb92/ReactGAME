@@ -5,12 +5,17 @@ var router = require("react-router");
 
 
 
-// ========================================
 var Board = React.createClass({
+    getInitialState: function() {
+    return {
+        works: "yes"
+    }
+},
+
     render: function(){
         return(
-            <div className="main-container">
-will this render
+            <div className="col-md-12">
+                <h1>will this render</h1>
             </div>
         )
     }
